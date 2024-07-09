@@ -1,95 +1,122 @@
-body {
-  max-width: 1600px;
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Caveat:ital,wght@0,400;0,700;1,400&display=swap');
+
+content{
+  max-width:1600px;
   margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
-  background-color: #F8F4F5; 
 }
-
-h1,h4 {
+nav a{
   text-align: center;
-  color:#005F41;
+  color: #F8F4F5;
+  text-decoration: none;
+  padding: 35px;
 }
-
+#hero-msg h1{
+  text-align: center;
+}
+#hero-msg h4{
+  text-align: center;
+}
 .button-box{
   text-align: center;
 }
-
 main section{
   text-align: center;
 }
-
-nav a{
-  text-align: center;
-  color:#005F41;
-  text-decoration: none;
+#background {
+  height: 725px;
+  background-color:#005F41;
+  margin-bottom: 10px
 }
-
+header{
+  background-color:#005F41;
+}
 nav a:hover{
-  background-color: #005F41;
-  color: #F8F4F5;
-}
-
-.home-title{
-  background-color: #F8F4F5;
-  color: #005F41;
+  background-color:#F8F4F5;
+  color: black;
 }
 
 .book, .join{
-  background-color: white;
-  color: #005F41;
+  background-color:#005F41;
+  color:#F8F4F5;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover{
-  background-color: #005F41;
-  color:#F8F4F5;
+  background-color:#F8F4F5;
+  color:black;
 }
-
-#background{
-  height: 725px;
-  background-color: #005F41;
-}
-
 .msg{
-  background-color: white;
-}
-.msg h2{
-  color: #005F41; 
-}
-  
-.msg p{
-  color: #005F41; 
-}
-  
-footer{
-  background-color: #F8F4F5;
-  color: #005F41; 
-}
-  
-footer a{
-  color: #005F41;
-  text-decoration: none; 
-}
-
-footer a:hover{
-  background-color: #005F41;
+  background-color:#005F41;
   color:#F8F4F5;
+  line-height: 1.5em;
+  padding: 35px;
 }
-
-.icon, .logo{
+footer{
+  background-color:#005F41;
+  color:#F8F4F5;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img{
+  padding-top: 15px;
+}
+body{
+  background-color: #F8F4F5;
+  font-family:"Caveat", "Helvetica", "sans-serif";
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+.icon {
   width: 80px;
+  padding-top: 10px;
 }
-
+.logo{
+  width: 80px; 
+}
 #hero-img{
-  width: 100%;
+  width:100%;
 }
-
+footer a{
+  color:#F8F4F5;;
+  text-decoration: none;
+}
 footer p{
   font-size: 1.2em;
+  color:#F8F4F5;
 }
-
-footer p a:hover{
+footer p a:hover {
   text-decoration: underline;
+  color:#F8F4F5;
 }
+h1{
+  font-family:"Cabin Sketch", "Helvetica", "sans-serif";
+}
+h2{
+  margin: 0;
+}
+.home-title{
+  font-size: 2em;
+  margin-top: 10px;
+}
+.msg p{
+  font-size: .8em;
+  padding-bottom: 15px;
+}
+#logo_link{
+  padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
+ 

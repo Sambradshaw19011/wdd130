@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #fcfcfc;
     color: #333;
   }
   
   header {
     background-color: #206791;
-    color: white;
+    color: #fcfcfc;
     text-align: center;
     padding: 1em 0;
   }
@@ -24,7 +24,7 @@ body {
   }
   
   nav a {
-    color: white;
+    color: #fcfcfc;
     text-decoration: none;
     font-weight: bold;
   }
@@ -35,7 +35,7 @@ body {
   
   section {
     padding: 50px;
-    background-color: white;
+    background-color: #fcfcfc;
     margin: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -49,7 +49,7 @@ body {
     text-align: center;
     padding: 30px;
     background-color: #333;
-    color: white;
+    color: #fcfcfc;
     position: relative;
   }
   .social {

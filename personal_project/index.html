@@ -4,44 +4,75 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>Your Name - Portfolio</title>
+  <title>Sam Bradshaw - Portfolio</title>
+  <style>
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    nav a {
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Sam Bradshaw</h1>
     <nav>
       <ul>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a onclick="showTab('experience')">Experience</a></li>
+        <li><a onclick="showTab('projects')">Projects</a></li>
+        <li><a onclick="showTab('contact')">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="experience">
+  <section id="experience" class="tab-content active">
     <h2>Experience</h2>
     <p>Experience Descriptions</p>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="tab-content">
     <h2>Projects</h2>
-    <p>Project Descriptions
-    </p>
+    <p>Project Descriptions</p>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="tab-content">
     <h2>Contact</h2>
     <p>Contact Info</p>
   </section>
 
   <footer>
     <div class="social">
-        <a href="https://www.linkedin.com/in/sam-bradshaw-b1114b1ba" target="_blank">
-            <img src="images/linkdin.png" alt="linkdin icon">
-        </a>
-        <a href="https://github.com/Sambradshaw19011" target="_blank">
-            <img src="images/github.png" alt="github icon">
-        </a>
+      <a href="https://www.linkedin.com/in/sam-bradshaw-b1114b1ba" target="_blank">
+        <img src="images/linkdin.png" alt="linkedin icon" />
+      </a>
+      <a href="https://github.com/Sambradshaw19011" target="_blank">
+        <img src="images/github.png" alt="github icon" />
+      </a>
+    </div>
   </footer>
+
+  <script>
+    function showTab(tabId) {
+      const sections = document.querySelectorAll('.tab-content');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
 </body>
 </html>

@@ -6,18 +6,8 @@
   --accent1-color: #333;
   --accent2-color: 
 
-  --heading-font: "YourOriginalHeadingFont";
-  --paragraph-font: Arial, sans-serif;
-
-  --headline-color-on-white: #YourOriginalHeadlineOnWhite;  
-  --headline-color-on-color: #YourOriginalHeadlineOnColor; 
-  --paragraph-color-on-white: #YourOriginalParagraphOnWhite; 
-  --paragraph-color-on-color: #YourOriginalParagraphOnColor; 
-  --paragraph-background-color: #YourOriginalParagraphBackground;
-  --nav-link-color: #YourOriginalNavLink;
-  --nav-background-color: #YourOriginalNavBackground;
-  --nav-hover-link-color: #YourOriginalNavHoverLink;
-  --nav-hover-background-color: #YourOriginalNavHoverBackground;
+  --heading-font: Georgia, 'Times New Roman', Times, serif;
+  --paragraph-font: Georgia, 'Times New Roman', Times, serif;
 }
 
 

@@ -232,3 +232,19 @@ main section img {
       margin-top: 25px;
   }
 }
+.rivers-main {
+  padding: 50px;
+  background-color: #F8F4F5;
+}
+
+.river-content h2 {
+  font-size: 2em;
+  color: #005F41;
+  margin-top: 30px;
+}
+
+.river-content p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin: 20px 0;
+}

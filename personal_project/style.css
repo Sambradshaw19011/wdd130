@@ -10,10 +10,31 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #206791;
   color: #fcfcfc;
-  text-align: center;
-  padding: 1em 0;
+  padding: 1em 0 0.5em;
+  position: relative;
+}
+.header-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1.5em;
+  height: 80px;
 }
 
+.logo {
+  height: 50px;
+  width: auto;
+  z-index: 1;
+}
+
+.header-content h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 2rem;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -42,8 +63,6 @@ nav a:hover,
 nav a.active-tab {
   background-color: #184d6d;
 }
-
-/* Tab Content */
 .tab-content {
   display: none;
 }
